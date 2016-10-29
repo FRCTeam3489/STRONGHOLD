@@ -1,0 +1,83 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Low Goal" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="17" y="420"/>
+		<width>438</width>
+		<height>68</height>
+		<property name="Color to show when true" value="240.240.240.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.WebcamViewerExtension">
+		<location x="534" y="38"/>
+		<width>652</width>
+		<height>506</height>
+	</static-widget>
+	<widget field="Auto choices" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="0" y="231"/>
+	</widget>
+	<widget field="Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="8" y="0"/>
+		<width>354</width>
+		<height>79</height>
+		<property name="Background" value="255.204.204.255"/>
+		<property name="Maximum" value="2.347"/>
+		<property name="Minimum" value="0.26"/>
+	</widget>
+	<widget field="HighGoal" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="19" y="326"/>
+		<width>318</width>
+		<height>90</height>
+		<property name="Color to show when true" value="0.255.0.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="58" y="366"/>
+		<height>28</height>
+		<property name="Image File" value="C:\Users\Programming\Pictures\shootnow.png"/>
+	</static-widget>
+	<widget field="Scaling" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="6" y="501"/>
+		<width>447</width>
+		<height>63</height>
+		<property name="Color to show when true" value="240.240.240.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="15" y="505"/>
+		<height>59</height>
+		<property name="Image File" value="C:\Users\Programming\Pictures\ClimbRobot.png"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="10" y="426"/>
+		<property name="Image File" value="C:\Users\Programming\Pictures\StayLow.png"/>
+	</static-widget>
+	<widget field="Got Ball" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="497" y="15"/>
+		<width>773</width>
+		<height>544</height>
+	</widget>
+	<widget field="Low Bar" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="250" y="385"/>
+		<width>122</width>
+		<height>27</height>
+		<property name="Color to show when true" value="0.255.0.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+	<hidden field="High Button 12"/>
+	<hidden field="High Goal"/>
+	<hidden field="Drive Stage 4"/>
+	<hidden field="Low Button 11"/>
+	<hidden field="Drive Stage 5"/>
+	<hidden field="Drive Stage 1"/>
+	<hidden field="version"/>
+	<hidden field="Drive Stage 2"/>
+	<hidden field="String Pot 1"/>
+	<hidden field="Drive Stage 3"/>
+	<hidden field="Hanging"/>
+	<hidden field="String Pot 1 Value"/>
+	<hidden field="testing motor"/>
+	<hidden field="String Pot 1 Voltage"/>
+</xml>

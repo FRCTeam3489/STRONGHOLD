@@ -1,0 +1,79 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Low Goal" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="-1" y="378"/>
+		<width>487</width>
+		<height>119</height>
+		<property name="Color to show when true" value="240.240.240.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.WebcamViewerExtension">
+		<location x="534" y="38"/>
+		<width>652</width>
+		<height>432</height>
+	</static-widget>
+	<widget field="Auto choices" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="0" y="231"/>
+	</widget>
+	<widget field="Volts" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.ProgressBar">
+		<location x="8" y="-2"/>
+		<width>354</width>
+		<height>79</height>
+		<property name="Background" value="255.204.204.255"/>
+		<property name="Maximum" value="2.347"/>
+		<property name="Minimum" value="0.26"/>
+	</widget>
+	<widget field="HighGoal" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="161" y="308"/>
+		<width>318</width>
+		<height>95</height>
+		<property name="Color to show when true" value="0.255.0.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<widget field="Scaling" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="25" y="144"/>
+		<width>438</width>
+		<height>86</height>
+		<property name="Color to show when true" value="240.240.240.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="126" y="145"/>
+		<width>266</width>
+		<height>85</height>
+		<property name="Image File" value="C:\Users\Programming\Desktop\Dashboard Pics\The Goat - Scaled.PNG"/>
+	</static-widget>
+	<widget field="Got Ball" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="497" y="15"/>
+		<width>773</width>
+		<height>477</height>
+	</widget>
+	<widget field="Low Bar" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="163" y="215"/>
+		<width>323</width>
+		<height>99</height>
+		<property name="Color to show when true" value="0.255.0.5"/>
+		<property name="Color to show when false" value="240.240.240.255"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="187" y="218"/>
+		<width>216</width>
+		<height>101</height>
+		<property name="Image File" value="C:\Users\Programming\Desktop\Dashboard Pics\The Goat - Low Bar.PNG"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="225" y="310"/>
+		<width>184</width>
+		<height>85</height>
+		<property name="Image File" value="C:\Users\Programming\Desktop\Dashboard Pics\The Goat - High Goal.PNG"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="90" y="399"/>
+		<width>254</width>
+		<height>90</height>
+		<property name="Image File" value="C:\Users\Programming\Desktop\Dashboard Pics\The Goat - Low Goal.PNG"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
